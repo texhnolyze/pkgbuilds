@@ -77,6 +77,7 @@ static const Tag tags[] = {
     { "web",    &layouts[2],    0.80,   -1 },
     { "code",   &layouts[0],    -1,     -1 },
     { "ssh",    &layouts[3],    -1,     -1 },
+    { "virt",   &layouts[0],    -1,     -1 },
     { "misc",   &layouts[2],    -1,     -1 },
 };
 
@@ -134,6 +135,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_4,                      3)
 	TAGKEYS(                        XK_5,                      4)
 	TAGKEYS(                        XK_6,                      5)
+	TAGKEYS(                        XK_7,                      6)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 };
 
