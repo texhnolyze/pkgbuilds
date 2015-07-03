@@ -46,7 +46,7 @@ static const char colors[NUMCOLORS][ColLast][9] = {
 
 };
 
-static const char font[]		= "ohsnap.icons";
+static const char font[]		= "xft:inconsolata for powerline:medium:size=12";
 //static const char font[]		= "-misc-ohsnap.icons-medium-r-normal--0-0-75-75-c-0-iso8859-1";
 static const unsigned int borderpx  	    = 2;        // border pixel of windows
 static const unsigned int snap              = 2;     	// snap pixel
