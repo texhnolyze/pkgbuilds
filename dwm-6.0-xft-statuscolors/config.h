@@ -1,8 +1,7 @@
 /* 
 Configuration file for DWM. 
-Maintainer: illusionist
-https://www.github.com/nixmeal
 */
+
 /*Appearance*/
 #define NUMCOLORS 5
 static const char colors[NUMCOLORS][ColLast][9] = {
@@ -82,9 +81,12 @@ static const Tag tags[] = {
 };
 
 static const Rule rules[] = {
-	/* class      		instance	title		tags mask	isfloating 	monitor */
-	{ "Gimp",     		NULL,       NULL,       	1 << 4,     True,      	-1 },
-	{ "Firefox",		NULL,		NULL,	    	1 << 0,	  	False,		-1 },
+	/* class      		        instance	title       tags mask	isfloating 	monitor */
+    { "Gimp",     		        NULL,       NULL,       1 << 4,     True,      	-1 },
+	{ "Firefox",		        NULL,		NULL,	    2 << 0,	  	False,		-1 },
+    { "Chromium",               NULL,       NULL,       2 << 0,     False,      -1 },
+    { "Google-Chrome",          NULL,       NULL,       2 << 0,     False,      -1 },
+    { "Google-Chrome-Stable",   NULL,       NULL,       2 << 0,     False,      -1 },
 };
 
 #define MODKEY Mod1Mask
