@@ -1,0 +1,3 @@
+[submodule "joplin-pkgbuild"]
+	path = joplin-pkgbuild
+	url = git@github.com:texhnolyze/joplin-pkgbuild.git
