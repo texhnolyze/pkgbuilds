@@ -1,0 +1,17 @@
+pkgbase = lichtblick-bin
+	pkgdesc = Lichtblick is an integrated visualization and diagnosis tool for robotics, available in your browser or as a desktop app on Linux, Windows, and macOS.
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://github.com/Lichtblick-Suite/lichtblick
+	arch = x86_64
+	license = Mozilla
+	license = Public
+	license = License
+	license = 2.0
+	provides = lichtblick=1.6.0
+	options = !debug
+	options = !strip
+	source = lichtblick-bin-1.6.0.tar.gz::https://github.com/Lichtblick-Suite/lichtblick/releases/download/v1.6.0/lichtblick-1.6.0-linux-x64.tar.gz
+	sha256sums = 945f848b7adc4c85d6c36a2a42325026aecdededac478a663220929f0e8b3d64
+
+pkgname = lichtblick-bin
